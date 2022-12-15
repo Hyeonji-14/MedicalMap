@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#EEFDDA"
+        android:fontFamily="@font/welcome"
+        android:text="더보기"
+        android:textColor="#000"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:id="@+id/map_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/map_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/welcome"
+                    android:lineSpacingExtra="20dp"
+                    android:text=" 병원 이름\n 병원 주소\n 병원 번호"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/medical" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
