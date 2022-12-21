@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyABdXUQoMCfCw4CSKi9kcSi5KEXo8C8Hbw" />
+            android:value="AIzaSyBOw2vtQB-xgwXVdCT9RckIavIlIve8OIM" />
 
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.HospitalActivity" />
