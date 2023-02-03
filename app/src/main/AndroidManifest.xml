@@ -19,15 +19,11 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBOw2vtQB-xgwXVdCT9RckIavIlIve8OIM" />
+            android:value="AIzaSyABdXUQoMCfCw4CSKi9kcSi5KEXo8C8Hbw" />
 
         <activity
             android:name=".activity.MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".activity.HospitalActivity" />
