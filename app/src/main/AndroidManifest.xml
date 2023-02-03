@@ -21,7 +21,15 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBOw2vtQB-xgwXVdCT9RckIavIlIve8OIM" />
 
-        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".activity.HospitalActivity" />
         <activity android:name=".activity.PharmacyActivity" />
         <activity
