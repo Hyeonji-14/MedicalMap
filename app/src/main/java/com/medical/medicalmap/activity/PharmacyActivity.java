@@ -1,4 +1,4 @@
-package com.example.medicalmap.activity;
+package com.medical.medicalmap.activity;
 
 import android.location.Address;
 import android.location.Geocoder;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.medicalmap.assist.Helper;
-import com.example.medicalmap.assist.Item;
-import com.example.medicalmap.R;
+import com.medical.medicalmap.assist.Helper;
+import com.medical.medicalmap.assist.Item;
+import com.medical.medicalmap.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;

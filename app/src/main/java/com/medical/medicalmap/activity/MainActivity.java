@@ -1,4 +1,4 @@
-package com.example.medicalmap.activity;
+package com.medical.medicalmap.activity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -12,9 +12,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import com.example.medicalmap.assist.Helper;
-import com.example.medicalmap.assist.NetworkThread;
-import com.example.medicalmap.R;
+import com.medical.medicalmap.assist.Helper;
+import com.medical.medicalmap.assist.NetworkThread;
+import com.medical.medicalmap.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

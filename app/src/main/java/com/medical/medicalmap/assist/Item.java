@@ -1,4 +1,4 @@
-package com.example.medicalmap.assist;
+package com.medical.medicalmap.assist;
 
 public class Item {
     private int itemKey;

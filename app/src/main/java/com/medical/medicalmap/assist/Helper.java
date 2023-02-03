@@ -1,4 +1,4 @@
-package com.example.medicalmap.assist;
+package com.medical.medicalmap.assist;
 
 import android.content.Context;
 import android.database.Cursor;

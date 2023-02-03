@@ -1,4 +1,4 @@
-package com.example.medicalmap;
+package com.medical.medicalmap;
 
 import org.junit.Test;
 

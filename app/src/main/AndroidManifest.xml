@@ -22,14 +22,14 @@
             android:value="AIzaSyABdXUQoMCfCw4CSKi9kcSi5KEXo8C8Hbw" />
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.medical.medicalmap.activity.MainActivity"
             android:exported="true">
         </activity>
 
-        <activity android:name=".activity.HospitalActivity" />
-        <activity android:name=".activity.PharmacyActivity" />
+        <activity android:name="com.medical.medicalmap.activity.HospitalActivity" />
+        <activity android:name="com.medical.medicalmap.activity.PharmacyActivity" />
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.medical.medicalmap.activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

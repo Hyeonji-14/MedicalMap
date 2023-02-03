@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.medicalmap'
+    namespace 'com.medical.medicalmap'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.medicalmap"
+        applicationId "com.medical.medicalmap"
         minSdk 21
         targetSdk 33
         versionCode 1
