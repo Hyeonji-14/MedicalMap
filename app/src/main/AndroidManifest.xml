@@ -19,7 +19,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyABdXUQoMCfCw4CSKi9kcSi5KEXo8C8Hbw" />
+            android:value="-" />
 
         <activity
             android:name="com.medical.medicalmap.activity.MainActivity"
